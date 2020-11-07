@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>Main Profile</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -14,9 +14,17 @@
         <link rel="stylesheet" href="css/heading.css">
         <link rel="stylesheet" href="css/body.css">
         <script>
-            function resume()
+            function resumedivyesh()
+            {
+                document.getElementById('divyeshform').submit();
+            }
+            function resumeroshan()
             {
                 document.getElementById('roshanform').submit();
+            }
+            function resumepraveen()
+            {
+                document.getElementById('praveenform').submit();
             }
         </script>
     </head>
@@ -48,7 +56,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">ROSHAN- DIVYESH - PRAVEEN</p>
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">ROSHAN - PRAVEEN - DIVYESH</p>
             </div>
         </header>
         <section class="page-section portfolio" id="portfolio">
@@ -68,27 +76,36 @@
                     <!-- Portfolio Items-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <form method="get" id="roshanform" action="DivyeshResume.html">
-                                <img class="img-fluid" id="myroshan" src="assets/img/portfolio/circus.png" alt="Roshan Kochgawe" onclick="resume()"/>
+                            <form method="get" id="roshanform" action="Resume.html">
+                                
+                                <img style="width: 100%; height: 400px;" id="myroshan" src="Image/roshan.jpg" alt="Roshan Kochgawe" onclick="resumeroshan()"/>
                             </form>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                                <form method="get" id="roshanform" action="DivyeshResume.html">
-                                    <img class="img-fluid" id="myroshan" src="assets/img/portfolio/circus.png" alt="Roshan Kochgawe" onclick="resume()"/>
+                                <form method="get" id="praveenform" action="Profile.html">
+                                    <img style="width: 100%; height: 400px;" id="mypreevn" src="Image/IMG-20180127-WA0002-1.jpg" alt="Praveen Chaubey" onclick="resumepraveen()"/>
                                 </form>
                         </div>
                         
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <form method="get" id="roshanform" action="DivyeshResume.html">
-                                <img class="img-fluid" id="myroshan" src="Image/div2.jpg" alt="Roshan Kochgawe" onclick="resume()"/>
+                            <form method="get" id="divyeshform" action="DivyeshResume.html">
+                                <img style="width: 100%; height: 400px;" id="mydivyesh" src="Image/div3.jpg" alt="Divyesh Marne" onclick="resumedivyesh()"/>
                             </form>
              
                     </div>
                         </div>
+                </div>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Click on Image to Visit Resume</h2>
                 </div>
             </div>
         </section>
@@ -138,13 +155,13 @@
                         <div class="d-flex flex-column align-items-center">
                             <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
                             <div class="text-muted">Phone</div>
-                            <div class="lead font-weight-bold">(555) 555-5555</div>
+                            <div class="lead font-weight-bold">9049965517</div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="d-flex flex-column align-items-center">
                             <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
-                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">name@example.com</a>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:info@ltts.com">info@ltts.com</a>
                         </div>
                     </div>
                 </div>
@@ -156,24 +173,27 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="mb-4">LOCATION</h4>
-                        <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-Clark, MO 65243</p>
+                        <p class="pre-wrap lead mb-0">Sez Unit-1, Unit-2, Unit-3, Unit-4, L3 Building, Manyata Embassy Business Park,nagawara Hobli,outer Ring Road, Bengaluru, Karnataka 5600453</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/pg/LnTTechnologyServices/posts/"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/LnTTechservices"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/company/l&t-technology-services-limited"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="mb-4">ABOUT FREELANCER</h4>
-                        <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap</p>
+                        <h4 class="mb-4">EXPLORE LTTS</h4>
+                        <a href="https://www.ltts.com/events/upcoming" style="color: white; padding-top: 2px;  font-size: larger;" >Events & Webinars</a> <br>
+                        <a href="https://www.ltts.com/about-us/news-and-press-releases" style="color: white; padding-top: 2px; font-size: larger;" >News & Media</a><br>
+                        <a href="https://www.ltts.com/about-us/quality-enabling-business-excellence" style="color: white; padding-top: 2px;  font-size: larger;" >Quality Management</a><br>
+                        <a href="https://www.ltts.com/about-us/near-shore-design-centerss" style="color: white; padding-top: 2px;  font-size: larger;" >Nearshore Centers</a>
+
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <section class="copyright py-4 text-center text-white">
-            <div class="container"><small class="pre-wrap">Copyright © Your Website 2020</small></div>
+            <div class="container"><small class="pre-wrap">© 2020 L&T Technology Services Limited. All Rights Reserved.</small></div>
         </section>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
